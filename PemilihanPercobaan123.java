@@ -4,12 +4,9 @@ public class PemilihanPercobaan123 {
         Scanner input23 = new Scanner(System.in);
         System.out.println("Masukkan angka: ");
         int angka = input23.nextInt();
-        if (angka % 2 == 0) {
-            System.out.println("Angka "+angka+" bilangan genap");
-        }
-        else{
-        System.out.println("angka "+" bilangan ganjil");
-        }
+        String hasil = (angka % 2 == 0) ? "Angka "+angka+" bilangan genap" : "angka "+" bilangan ganjil";
+        System.out.println(hasil);
+
     }
     
 }
